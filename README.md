@@ -17,3 +17,5 @@ python --version
 # To deactive venv type
 deactivate
 ```
+
+## Run
