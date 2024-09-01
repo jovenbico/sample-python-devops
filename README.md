@@ -18,4 +18,7 @@ python --version
 deactivate
 ```
 
-## Run
+## Run hello
+```
+./hello.py
+```
