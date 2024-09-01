@@ -21,4 +21,6 @@ deactivate
 ## Run hello
 ```
 ./hello.py
+./age.py
+./bmi.py
 ```
