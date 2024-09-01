@@ -18,7 +18,7 @@ python --version
 deactivate
 ```
 
-## Run hello
+## Run hello_to_python
 ```
 ./hello.py
 ./age.py
