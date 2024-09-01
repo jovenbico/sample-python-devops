@@ -23,4 +23,5 @@ deactivate
 ./hello.py
 ./age.py
 ./bmi.py
+./timer.py
 ```
