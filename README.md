@@ -24,4 +24,7 @@ deactivate
 ./age.py
 ./bmi.py
 ./timer.py
+
+export STAGE=Production && ./running.py
+unset STAGE && ./running.py
 ```
