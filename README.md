@@ -28,3 +28,12 @@ deactivate
 export STAGE=Production && ./running.py
 unset STAGE && ./running.py
 ```
+
+## Run test slack_notify
+```
+set -a
+. .env
+set +a
+
+python slack_notify/test.py
+```

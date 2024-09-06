@@ -22,7 +22,11 @@
 		"vscode": {
 			"extensions": [
 				"eamodio.gitlens"
-			]
+			],
+			"settings": {
+				"python.defaultInterpreterPath": ".venv/bin/python",
+				"python.envFile": ".env"
+			}
 		}
 	}
 
