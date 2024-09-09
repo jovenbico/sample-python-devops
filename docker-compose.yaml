@@ -1,0 +1,24 @@
+version: 'v2'
+
+services:
+# docker compose run --rm test_slack_notify
+  test_slack_notify:
+    image: python:3.11-alpine
+    volumes:
+      - ./slack_notify:/app
+      - ./requirements/main.txt:/app/requirements.txt
+    working_dir: /app
+    env_file:
+      - .env.test
+    command: 
+      - sh
+      - -c
+      - |
+        pip install -r requirements.txt
+        python test.py
+  test_hello:
+    image: python:3.11-alpine
+    volumes:
+      - ./hello_to_python:/app
+    working_dir: /app
+    command: ["./hello.py"]
