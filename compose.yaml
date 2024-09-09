@@ -1,5 +1,3 @@
-version: 'v2'
-
 services:
 # docker compose run --rm test_slack_notify
   test_slack_notify:
