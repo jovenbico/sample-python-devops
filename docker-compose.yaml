@@ -16,6 +16,7 @@ services:
       - |
         pip install -r /requirements/testing.txt
         python test.py
+# docker compose run --rm test_hello
   test_hello:
     image: python:3.11-alpine
     volumes:
