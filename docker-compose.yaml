@@ -6,7 +6,7 @@ services:
     image: python:3.11-alpine
     volumes:
       - ./slack_notify:/app
-      - ./requirements/main.txt:/app/requirements.txt
+      - ./requirements:/requirements
     working_dir: /app
     env_file:
       - .env.test
@@ -14,7 +14,7 @@ services:
       - sh
       - -c
       - |
-        pip install -r requirements.txt
+        pip install -r /requirements/testing.txt
         python test.py
   test_hello:
     image: python:3.11-alpine
