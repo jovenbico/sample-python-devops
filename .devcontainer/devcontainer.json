@@ -16,6 +16,12 @@
 			"toolsToInstall": "",
 			"optimize": true,
 			"installJupyterlab": false
+		},
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {
+			"version": "25.0",
+			"moby": false,
+			"dockerDashComposeVersion": "v2",
+			"azureDnsAutoDetection": false
 		}
 	},
 	"customizations": {
