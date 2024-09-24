@@ -10,4 +10,6 @@ logging.basicConfig(level=logging.DEBUG)
 
 SLACK_BOT_TOKEN = os.environ["SLACK_BOT_TOKEN"]
 client = WebClient(token=SLACK_BOT_TOKEN)
-res = client.api_test()
+response = client.api_test()
+
+assert response.status_code == 200
