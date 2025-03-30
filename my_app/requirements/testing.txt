@@ -1,2 +1,0 @@
-# pip install -r requirements/testing.txt
-slack-sdk>=3.30.0<4
