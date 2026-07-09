@@ -17,7 +17,7 @@
 			"optimize": true,
 			"installJupyterlab": false
 		},
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {
+		"ghcr.io/devcontainers/features/docker-in-docker:4": {
 			"version": "25.0",
 			"moby": false,
 			"dockerDashComposeVersion": "v2",
